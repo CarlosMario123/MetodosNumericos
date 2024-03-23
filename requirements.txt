@@ -1,5 +1,5 @@
+gunicorn 
 Flask
 numpy
 sympy
-uvicorn
 scipy
