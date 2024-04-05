@@ -3,3 +3,5 @@ Flask
 numpy
 sympy
 scipy
+Flask-Cors
+
