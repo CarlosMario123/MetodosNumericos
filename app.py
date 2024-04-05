@@ -8,6 +8,8 @@ import sympy as sp
 from rapson import newton_raphson
 from secante import secant_method
 app = Flask(__name__)
+from flask_cors import CORS
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 @app.route('/biseccion', methods=['POST'])
 def procesar_datos():
